@@ -18,6 +18,8 @@ makeCacheMatrix <-function(mt=matrix()){
   get_invert_mt<-function(){
     print(invert_mt)
   }
+  
+  list(set_matrix=set_matrix, get_matrix= get_matrix, set_invert_mt=set_invert_mt, get_invert_mt=get_invert_mt)
 }
 
 
